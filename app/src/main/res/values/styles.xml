@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- 评价星星的样式 start -->
+    <style name="coloredRatingBarStyle">
+        <item name="indicator">false</item>
+        <item name="type">normal</item>
+    </style>
+
+    <style name="coloredRatingBarStyleIndicator">
+        <item name="indicator">true</item>
+        <item name="type">normal</item>
+    </style>
+
+    <style name="coloredRatingBarStyleSmall">
+        <item name="indicator">false</item>
+        <item name="type">small</item>
+    </style>
+
+    <style name="coloredRatingBarStyleSmallIndicator">
+        <item name="indicator">true</item>
+        <item name="type">small</item>
+    </style>
+    <!-- 评价星星的样式 end -->
+
+    <style name="Widget.GifMoviewView" parent="@android:style/Widget"></style>
+
+</resources>

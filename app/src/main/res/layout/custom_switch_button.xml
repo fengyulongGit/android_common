@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_circle_shap_blue"
+    android:minWidth="50dp">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/left_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical|left"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/left_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/switch_circle"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/right_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical|right"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/right_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/switch_circle"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+</RelativeLayout>
