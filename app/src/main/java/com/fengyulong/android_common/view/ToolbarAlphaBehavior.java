@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * Created by COOLWEN on 2016/5/31.

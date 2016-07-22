@@ -7,7 +7,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * 自定义圆形进度条对话框

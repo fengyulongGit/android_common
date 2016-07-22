@@ -2,7 +2,7 @@ package com.fengyulong.android_common.utils;
 
 import android.text.TextUtils;
 
-import com.woke.common.modal.Times;
+import com.fengyulong.android_common.modal.Times;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

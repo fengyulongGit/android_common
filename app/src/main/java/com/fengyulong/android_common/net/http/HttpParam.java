@@ -3,7 +3,7 @@
  */
 package com.fengyulong.android_common.net.http;
 
-import com.woke.common.utils.WokeCommonUtil;
+import com.fengyulong.android_common.utils.WokeCommonUtil;
 
 import java.io.UnsupportedEncodingException;
 

@@ -14,8 +14,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
-import com.woke.common.R;
-import com.woke.common.view.nineoldandroids.view.ViewHelper;
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.view.nineoldandroids.view.ViewHelper;
 
 import java.util.List;
 

@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 public class EmptyView extends LinearLayout {
 

@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 
 /**

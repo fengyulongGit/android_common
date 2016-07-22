@@ -3,7 +3,7 @@ package com.fengyulong.android_common.view.pulltorefresh.library;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 
-import com.woke.common.view.pulltorefresh.library.internal.LoadingLayout;
+import com.fengyulong.android_common.view.pulltorefresh.library.internal.LoadingLayout;
 
 import java.util.HashSet;
 

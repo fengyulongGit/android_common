@@ -18,11 +18,11 @@ package com.fengyulong.android_common.view.pulltorefresh.library;
 import android.view.View;
 import android.view.animation.Interpolator;
 
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.Mode;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.OnPullEventListener;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.OnRefreshListener;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.State;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.Mode;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.OnPullEventListener;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.OnRefreshListener;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.State;
 
 public interface IPullToRefresh<T extends View> {
 

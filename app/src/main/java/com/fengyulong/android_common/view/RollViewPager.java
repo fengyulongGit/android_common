@@ -13,9 +13,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.fengyulong.android_common.R;
 import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.util.LogUtils;
-import com.woke.common.R;
 
 import java.util.ArrayList;
 

@@ -24,8 +24,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
+import com.fengyulong.android_common.utils.DisplayUtil;
 import com.google.zxing.PlanarYUVLuminanceSource;
-import com.woke.common.utils.DisplayUtil;
 
 import java.io.IOException;
 

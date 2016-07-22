@@ -19,8 +19,8 @@ package com.fengyulong.android_common.view.nineoldandroids.animation;
 import android.util.Log;
 import android.view.View;
 
-import com.woke.common.view.nineoldandroids.util.Property;
-import com.woke.common.view.nineoldandroids.view.animation.AnimatorProxy;
+import com.fengyulong.android_common.view.nineoldandroids.util.Property;
+import com.fengyulong.android_common.view.nineoldandroids.view.animation.AnimatorProxy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

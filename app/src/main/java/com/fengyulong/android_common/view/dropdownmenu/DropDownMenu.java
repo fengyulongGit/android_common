@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 import java.util.List;
 

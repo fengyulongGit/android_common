@@ -6,8 +6,8 @@ package com.fengyulong.android_common.net.http;
 import android.content.Context;
 import android.util.Log;
 
-import com.woke.common.utils.EnumRunMode;
-import com.woke.common.utils.WokeCommonUtil;
+import com.fengyulong.android_common.utils.EnumRunMode;
+import com.fengyulong.android_common.utils.WokeCommonUtil;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;

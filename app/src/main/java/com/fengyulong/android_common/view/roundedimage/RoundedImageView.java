@@ -34,7 +34,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * 带圆角的正方形

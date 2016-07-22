@@ -36,13 +36,13 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.woke.common.R;
-import com.woke.common.utils.DisplayUtil;
-import com.woke.common.view.avloadingindicatorview.AVLoadingIndicatorView;
-import com.woke.common.view.gifview.GifImageView;
-import com.woke.common.view.pulltorefresh.library.ILoadingLayout;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.Mode;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.Orientation;
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.utils.DisplayUtil;
+import com.fengyulong.android_common.view.avloadingindicatorview.AVLoadingIndicatorView;
+import com.fengyulong.android_common.view.gifview.GifImageView;
+import com.fengyulong.android_common.view.pulltorefresh.library.ILoadingLayout;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.Mode;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.Orientation;
 
 @SuppressLint("ViewConstructor")
 public abstract class LoadingLayout extends FrameLayout implements ILoadingLayout {

@@ -18,7 +18,7 @@ import android.net.Uri;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * 圆形图像，带边框的

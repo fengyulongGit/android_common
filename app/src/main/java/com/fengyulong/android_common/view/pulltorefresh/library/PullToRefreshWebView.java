@@ -24,7 +24,7 @@ import android.util.AttributeSet;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 
 public class PullToRefreshWebView extends PullToRefreshBase<WebView> {

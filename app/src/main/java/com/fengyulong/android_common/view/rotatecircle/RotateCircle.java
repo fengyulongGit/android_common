@@ -13,7 +13,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 public class RotateCircle extends View {
 

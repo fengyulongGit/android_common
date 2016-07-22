@@ -10,8 +10,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
 
-import com.woke.common.R;
-import com.woke.common.utils.CommonUtil;
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.utils.CommonUtil;
 
 /**
  * Created by COOLWEN on 2016/5/31.

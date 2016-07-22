@@ -20,8 +20,8 @@ import android.annotation.SuppressLint;
 import android.view.View;
 import android.view.animation.Interpolator;
 
-import com.woke.common.view.nineoldandroids.animation.Animator;
-import com.woke.common.view.nineoldandroids.animation.ValueAnimator;
+import com.fengyulong.android_common.view.nineoldandroids.animation.Animator;
+import com.fengyulong.android_common.view.nineoldandroids.animation.ValueAnimator;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

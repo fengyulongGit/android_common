@@ -4,7 +4,7 @@ import android.annotation.SuppressLint;
 import android.view.View;
 import android.view.animation.Interpolator;
 
-import com.woke.common.view.nineoldandroids.animation.Animator;
+import com.fengyulong.android_common.view.nineoldandroids.animation.Animator;
 
 import java.lang.ref.WeakReference;
 

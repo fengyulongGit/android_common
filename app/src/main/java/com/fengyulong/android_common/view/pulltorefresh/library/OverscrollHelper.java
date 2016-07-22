@@ -19,8 +19,8 @@ import android.annotation.TargetApi;
 import android.util.Log;
 import android.view.View;
 
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.Mode;
-import com.woke.common.view.pulltorefresh.library.PullToRefreshBase.State;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.Mode;
+import com.fengyulong.android_common.view.pulltorefresh.library.PullToRefreshBase.State;
 
 @TargetApi(9)
 public final class OverscrollHelper {

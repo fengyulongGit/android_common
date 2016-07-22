@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.animation.TranslateAnimation;
 import android.widget.ScrollView;
 
-import com.woke.common.R;
-import com.woke.common.utils.GetSystemInfoUtils;
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.utils.GetSystemInfoUtils;
 
 /**
  * 自定义ScrollView

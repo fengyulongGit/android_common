@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * 自定义可切换的button

@@ -3,7 +3,7 @@ package com.fengyulong.android_common.view.nineoldandroids.view;
 import android.annotation.SuppressLint;
 import android.view.View;
 
-import com.woke.common.view.nineoldandroids.view.animation.AnimatorProxy;
+import com.fengyulong.android_common.view.nineoldandroids.view.animation.AnimatorProxy;
 
 @SuppressLint("NewApi")
 public final class ViewHelper {

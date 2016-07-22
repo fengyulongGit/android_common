@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.util.AttributeSet;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * 自定义的图像类型

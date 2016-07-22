@@ -29,9 +29,9 @@ import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.code.camera.CameraManager;
 import com.google.zxing.ResultPoint;
-import com.woke.common.R;
-import com.woke.common.code.camera.CameraManager;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -26,7 +26,7 @@ import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 import java.io.IOException;
 

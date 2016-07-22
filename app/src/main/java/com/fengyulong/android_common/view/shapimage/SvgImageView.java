@@ -9,9 +9,9 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 
-import com.woke.common.R;
-import com.woke.common.view.shapimage.svg.SVG;
-import com.woke.common.view.shapimage.svg.SVGParser;
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.view.shapimage.svg.SVG;
+import com.fengyulong.android_common.view.shapimage.svg.SVGParser;
 
 /**
  * 自定义图像的背景形状

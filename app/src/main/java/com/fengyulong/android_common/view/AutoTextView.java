@@ -5,7 +5,7 @@ import android.content.Context;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.TextView;
 
-import com.woke.common.R;
+import com.fengyulong.android_common.R;
 
 /**
  * 自定义的一些试图

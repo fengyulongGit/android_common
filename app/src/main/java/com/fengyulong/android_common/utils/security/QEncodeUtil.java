@@ -3,7 +3,7 @@ package com.fengyulong.android_common.utils.security;
 import android.util.Base64;
 import android.util.Log;
 
-import com.woke.common.utils.ValidateUtil;
+import com.fengyulong.android_common.utils.ValidateUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;

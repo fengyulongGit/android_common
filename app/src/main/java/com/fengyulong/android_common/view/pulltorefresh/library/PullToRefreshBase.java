@@ -34,12 +34,12 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.woke.common.R;
-import com.woke.common.view.pulltorefresh.library.internal.FlipLoadingLayout;
-import com.woke.common.view.pulltorefresh.library.internal.LoadingLayout;
-import com.woke.common.view.pulltorefresh.library.internal.RotateLoadingLayout;
-import com.woke.common.view.pulltorefresh.library.internal.Utils;
-import com.woke.common.view.pulltorefresh.library.internal.ViewCompat;
+import com.fengyulong.android_common.R;
+import com.fengyulong.android_common.view.pulltorefresh.library.internal.FlipLoadingLayout;
+import com.fengyulong.android_common.view.pulltorefresh.library.internal.LoadingLayout;
+import com.fengyulong.android_common.view.pulltorefresh.library.internal.RotateLoadingLayout;
+import com.fengyulong.android_common.view.pulltorefresh.library.internal.Utils;
+import com.fengyulong.android_common.view.pulltorefresh.library.internal.ViewCompat;
 
 public abstract class PullToRefreshBase<T extends View> extends LinearLayout implements IPullToRefresh<T> {
 
