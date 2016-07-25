@@ -14,7 +14,7 @@ import android.telephony.TelephonyManager;
 import java.util.List;
 
 /**
- * @author Bean
+ * @author fengyulong
  */
 public class NetworkProber {
     private Context context;
