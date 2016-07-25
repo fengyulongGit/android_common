@@ -1,4 +1,4 @@
-package fengyulong.com.android_common;
+package fyl.com.android_common;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

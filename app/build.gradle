@@ -5,7 +5,7 @@ android {
     buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId "com.fengyulong.android_common.demo"
+        applicationId "com.fyl.android_common.demo"
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 1

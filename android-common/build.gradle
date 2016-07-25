@@ -22,18 +22,18 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'android-common'
 
-    publishedGroupId = 'com.fengyulong'
+    publishedGroupId = 'com.fyl'
     libraryName = 'android-common'
     artifact = 'android-common'
 
     libraryDescription = 'The common of android library ,volley/pulltorefresh/.....'
 
-    siteUrl = 'https://github.com/fengyulongGit/android_common'
-    gitUrl = 'https://github.com/fengyulongGit/android_common.git'
+    siteUrl = 'https://github.com/fylGit/android_common'
+    gitUrl = 'https://github.com/fylGit/android_common.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
-    developerId = 'fengyulongGit'
+    developerId = 'fylGit'
     developerName = 'feng yulong'
     developerEmail = '86407969@qq.com'
 
