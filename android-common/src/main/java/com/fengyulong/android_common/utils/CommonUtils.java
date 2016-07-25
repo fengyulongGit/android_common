@@ -8,13 +8,10 @@ import com.fengyulong.android_common.base.BaseApp;
  * Created by fengyulong on 2016/7/22.
  */
 public class CommonUtils {
-    private static boolean DEBUG = true;
-
     private static String versionName;
-
     private static int versionCode;
-
     private static String channel;
+    private static boolean DEBUG = "debug".equals(getChannel());
 
     public static boolean DEBUG() {
         return DEBUG;

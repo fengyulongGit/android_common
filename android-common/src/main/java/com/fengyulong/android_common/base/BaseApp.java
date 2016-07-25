@@ -2,6 +2,10 @@ package com.fengyulong.android_common.base;
 
 import android.app.Application;
 
+import com.fengyulong.android_common.R;
+
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+
 /**
  * Created by fengyulong on 2016/7/22.
  */
@@ -16,5 +20,12 @@ public class BaseApp extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
+
+        //设置默认字体
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
+                .setFontAttrId(R.attr.fontPath)
+                .setDefaultFontPath("fonts/hei_xi.ttf")
+                .build()
+        );
     }
 }
