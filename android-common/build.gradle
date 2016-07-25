@@ -16,8 +16,30 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
 
-    useLibrary 'org.apache.http.legacy'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'android-common'
+
+    publishedGroupId = 'com.fengyulong.android-common'
+    libraryName = 'android-common'
+    artifact = 'android-common'
+
+    libraryDescription = 'The common of android library ,volley/pulltorefresh/.....'
+
+    siteUrl = 'https://github.com/fengyulongGit/android_common'
+    gitUrl = 'https://github.com/fengyulongGit/android_common.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'fengyulongGit'
+    developerName = 'feng yulong'
+    developerEmail = '86407969@qq.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 dependencies {
@@ -34,3 +56,6 @@ dependencies {
     compile 'org.apache.directory.studio:org.apache.commons.codec:1.8'
     compile 'com.google.code.gson:gson:2.7'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
