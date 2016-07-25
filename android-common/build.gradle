@@ -22,7 +22,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'android-common'
 
-    publishedGroupId = 'com.fengyulong.android-common'
+    publishedGroupId = 'com.fengyulong'
     libraryName = 'android-common'
     artifact = 'android-common'
 
@@ -55,6 +55,10 @@ dependencies {
     compile 'org.bouncycastle:bcprov-jdk15on:1.54'
     compile 'org.apache.directory.studio:org.apache.commons.codec:1.8'
     compile 'com.google.code.gson:gson:2.7'
+}
+
+tasks.withType(Javadoc) {
+    options.encoding = "UTF-8"
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'

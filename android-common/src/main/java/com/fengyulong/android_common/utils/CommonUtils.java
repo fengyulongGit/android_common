@@ -8,9 +8,6 @@ import com.fengyulong.android_common.base.BaseApp;
  * Created by fengyulong on 2016/7/22.
  */
 public class CommonUtils {
-    /**
-     * 是否debug模式
-     */
     private static boolean DEBUG = true;
 
     private static String versionName;

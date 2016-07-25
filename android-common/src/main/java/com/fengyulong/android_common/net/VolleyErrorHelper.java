@@ -9,12 +9,6 @@ import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 
-/**
- * Description: 网络异常以及服务器返回异常
- *
- * @author fengyulong
- * @code
- */
 public class VolleyErrorHelper {
 
     public static String getMessage(Object error) {

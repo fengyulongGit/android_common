@@ -13,12 +13,6 @@ import com.fengyulong.android_common.utils.LogUtils;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Description: 网络请求数据加密处理，以及返回处理
- *
- * @author fengyulong
- * @code
- */
 public class HttpRequestProvider {
     private HttpActionHandle actionHandle;
     private HttpStringRequest httpStringRequest;
@@ -31,19 +25,11 @@ public class HttpRequestProvider {
 
     }
 
-    /**
-     * 取消请求
-     *
-     * @param tag
-     */
     public void cancleRequest(String tag) {
         RequestQueue requestQueue = httpStringRequest.getRequestQueue();
         requestQueue.cancelAll(actionHandle.hashCode() + tag);
     }
 
-    /**
-     * 取消所有请求
-     */
     public void cancleAllRequest() {
         RequestQueue requestQueue = httpStringRequest.getRequestQueue();
         requestQueue.cancelAll(new RequestFilter() {
@@ -60,14 +46,6 @@ public class HttpRequestProvider {
         });
     }
 
-    /**
-     * 请求数据
-     *
-     * @param method
-     * @param map
-     * @param url
-     * @param dataParse
-     */
     public void request(final String actionName, int method, Map<String, String> map, Map<String, String> headermap, String url,
                         int TIMEOUT_MS, final DataParse dataParse) {
 
@@ -128,7 +106,6 @@ public class HttpRequestProvider {
         });
     }
 
-    // 解析数据
     public interface DataParse {
         Response onParse(String result) throws com.google.gson.JsonParseException, com.google.gson.JsonSyntaxException,
                 com.google.gson.JsonIOException;

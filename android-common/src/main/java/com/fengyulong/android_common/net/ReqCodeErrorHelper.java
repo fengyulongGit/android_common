@@ -2,13 +2,6 @@ package com.fengyulong.android_common.net;
 
 import android.content.Context;
 
-/**
- * Description: 服务器返回异常（如单点登录）
- *
- * @author fengyulong
- * @code
- */
-
 public class ReqCodeErrorHelper {
 
     public static void handleReqCode(final Context context, Response response) {

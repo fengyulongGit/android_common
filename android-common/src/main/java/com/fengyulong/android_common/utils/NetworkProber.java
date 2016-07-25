@@ -13,9 +13,6 @@ import android.telephony.TelephonyManager;
 
 import java.util.List;
 
-/**
- * @author fengyulong
- */
 public class NetworkProber {
     private Context context;
     private ConnectivityManager connectivityManager;
@@ -31,11 +28,6 @@ public class NetworkProber {
         wifiManager = (WifiManager) this.context.getSystemService(Context.WIFI_SERVICE);
     }
 
-    /**
-     * 网络是否可用
-     *
-     * @return
-     */
     public boolean isNetworkAvailable() {
         if (connectivityManager == null) {
             return false;
@@ -52,11 +44,6 @@ public class NetworkProber {
         return false;
     }
 
-    /**
-     * Gps是否打开
-     *
-     * @return
-     */
     public boolean isGpsEnabled() {
         if (locationManager != null) {
             List<String> accessibleProviders = locationManager.getProviders(true);
@@ -66,21 +53,12 @@ public class NetworkProber {
         }
     }
 
-    /**
-     * wifi是否打开
-     */
     public boolean isWifiEnabled() {
         return ((connectivityManager.getActiveNetworkInfo() != null && connectivityManager
                 .getActiveNetworkInfo().getState() == NetworkInfo.State.CONNECTED) || telephonyManager
                 .getNetworkType() == TelephonyManager.NETWORK_TYPE_UMTS);
     }
 
-    /**
-     * 判断当前网络是否是wifi网络
-     * if(activeNetInfo.getType()==ConnectivityManager.TYPE_MOBILE) { //判断3G网
-     *
-     * @return boolean
-     */
     public boolean isWifi() {
         NetworkInfo activeNetInfo = connectivityManager.getActiveNetworkInfo();
         if (activeNetInfo != null
@@ -90,11 +68,6 @@ public class NetworkProber {
         return false;
     }
 
-    /**
-     * 判断当前网络是否是3G网络
-     *
-     * @return boolean
-     */
     public boolean is3G() {
         NetworkInfo activeNetInfo = connectivityManager.getActiveNetworkInfo();
         if (activeNetInfo != null

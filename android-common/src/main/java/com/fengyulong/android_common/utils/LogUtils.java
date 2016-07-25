@@ -5,13 +5,6 @@ import android.util.Log;
 
 import com.lidroid.xutils.util.OtherUtils;
 
-/**
- * Log工具，类似android.util.Log。
- * tag自动产生，格式: customTagPrefix:className.methodName(L:lineNumber),
- * customTagPrefix为空时只输出：className.methodName(L:lineNumber)。
- * <p>
- * Author: fengyulong
- */
 public class LogUtils {
 
     public static final boolean allowD;

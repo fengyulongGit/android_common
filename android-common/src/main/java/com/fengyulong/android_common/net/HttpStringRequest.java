@@ -18,12 +18,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Description: 网络请求方法参数Volley方法
- *
- * @author fengyulong
- * @code
- */
 public class HttpStringRequest {
     private static final int MAX_RETRIES = 0;
     private static final int BACKOFF_MULT = 0;
@@ -46,22 +40,10 @@ public class HttpStringRequest {
         return httpStringRequest;
     }
 
-    /**
-     * @return 获取请求队列
-     */
     public RequestQueue getRequestQueue() {
         return requestQueue;
     }
 
-    /**
-     * @param actionHandle  网络请求回调方法
-     * @param method        post 或者 get
-     * @param url           接口url
-     * @param param         map 传递的参数
-     * @param headerMap     map 头参数
-     * @param listener      请求相应回调
-     * @param errorListener 请求错误回调
-     */
     public StringRequest request(HttpActionHandle actionHandle, final int method, String url, final Map<String, String> param, final Map<String, String> headerMap, int timeout, Listener<String> listener, ErrorListener errorListener) {
         final String back_url = url;
         try {

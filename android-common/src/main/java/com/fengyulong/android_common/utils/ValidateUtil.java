@@ -12,12 +12,6 @@ import java.util.regex.Pattern;
  */
 public class ValidateUtil {
 
-    /**
-     * 判断字符串是否为空，null,长度为0
-     *
-     * @param content
-     * @return
-     */
     public static boolean isEmpty(String content) {
         if (content == null || content.trim().length() == 0) {
             return true;
@@ -41,12 +35,6 @@ public class ValidateUtil {
         return true;
     }
 
-    /**
-     * 验证码 判断
-     *
-     * @param verifyCode
-     * @return
-     */
     public static boolean isVerifyCode(String verifyCode) {
         if (isEmpty(verifyCode))
             return false;
@@ -99,12 +87,6 @@ public class ValidateUtil {
         return false;
     }
 
-    /**
-     * 将手机号码中间部分替换成*号
-     *
-     * @param mobile
-     * @return
-     */
     public static String replaceMobile(String mobile) {
         if (mobile == null) {
             return "";
@@ -122,12 +104,6 @@ public class ValidateUtil {
         }
     }
 
-    /**
-     * 将身份证信息中间部分替换成*号
-     *
-     * @param identityCard
-     * @return
-     */
     public static String replaceIdentityCard(String identityCard) {
         if (identityCard == null) {
             return "";
@@ -148,9 +124,6 @@ public class ValidateUtil {
 
     }
 
-    /**
-     * 保留前面两位与后面两位,将中间的替换为*
-     */
     public static String replaceNum(String num) {
         if (num == null) {
             return null;
@@ -169,12 +142,6 @@ public class ValidateUtil {
         return buffer.toString();
     }
 
-    /**
-     * 判断身份证号是否合法
-     *
-     * @throws ParseException
-     * @throws NumberFormatException
-     */
     public static String isIdentityCard(String identityCard) throws NumberFormatException, ParseException {
         String errorInfo = "";// 记录错误信息
         String[] valCodeArr = {"1", "0", "X", "9", "8", "7", "6", "5", "4",
@@ -242,11 +209,6 @@ public class ValidateUtil {
         return "";
     }
 
-    /**
-     * 判断师字符串是否都为数字
-     *
-     * @param str
-     */
     public static boolean isNumeric(String str) {
         Pattern pattern = Pattern.compile("[0-9]*");
         Matcher isNum = pattern.matcher(str);
@@ -257,11 +219,6 @@ public class ValidateUtil {
         }
     }
 
-    /**
-     * 判断身份证生日是否有效
-     *
-     * @param str 为身份证生日拼接的字符串
-     */
     public static boolean isDataFormat(String str) {
         boolean flag = false;
         //String regxStr="[1-9][0-9]{3}-[0-1][0-2]-((0[1-9])|([12][0-9])|(3[01]))";

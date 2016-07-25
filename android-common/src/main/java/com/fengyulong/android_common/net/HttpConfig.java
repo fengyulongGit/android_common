@@ -1,8 +1,5 @@
 package com.fengyulong.android_common.net;
 
-/**
- * Created by fengyulong on 2016/7/25.
- */
 public class HttpConfig {
     private static HttpConfig instance;
 
